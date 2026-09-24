@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MB Business — Liens</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap');
+
+  :root{
+    --cream: #F2ECDD;
+    --cream-deep: #E6DCC2;
+    --charcoal: #241F1A;
+    --charcoal-soft: #4A4237;
+    --gold: #A97C36;
+    --gold-soft: #C7A467;
+    --line: #D3C7A6;
+  }
+
+  *{ box-sizing: border-box; margin:0; padding:0; }
+
+  body{
+    background: var(--cream);
+    color: var(--charcoal);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display:flex;
+    justify-content:center;
+    padding: 56px 20px 80px;
+  }
+
+  .page{
+    width:100%;
+    max-width: 460px;
+  }
+
+  .mark{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    border: 1.5px solid var(--gold);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin: 0 auto 22px;
+    background: var(--cream);
+  }
+  .mark span{
+    font-family:'Fraunces', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--charcoal);
+    letter-spacing: 0.01em;
+  }
+
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight: 600;
+    font-size: 2.1rem;
+    text-align:center;
+    letter-spacing: -0.01em;
+  }
+
+  .tagline{
+    text-align:center;
+    color: var(--charcoal-soft);
+    font-size: 0.95rem;
+    margin-top: 8px;
+    margin-bottom: 40px;
+  }
+
+  .group-label{
+    font-size: 0.78rem;
+    color: var(--gold);
+    font-weight: 600;
+    margin: 30px 0 10px 4px;
+  }
+  .group-label:first-of-type{ margin-top: 0; }
+
+  .links{
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+  }
+
+  a.link{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    text-decoration:none;
+    color: var(--charcoal);
+    background: var(--cream-deep);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 16px 18px;
+    transition: background 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+  }
+  a.link:hover{
+    background: #DED2AE;
+    border-color: var(--gold-soft);
+  }
+  a.link:active{ transform: scale(0.99); }
+
+  .link-text{ display:flex; flex-direction:column; gap:2px; }
+  .link-title{ font-weight: 600; font-size: 0.98rem; }
+  .link-sub{ font-size: 0.8rem; color: var(--charcoal-soft); }
+
+  .chev{
+    width: 9px; height: 9px;
+    border-top: 1.5px solid var(--gold);
+    border-right: 1.5px solid var(--gold);
+    transform: rotate(45deg);
+    flex-shrink:0;
+    margin-left: 12px;
+  }
+
+  footer{
+    text-align:center;
+    margin-top: 48px;
+    font-size: 0.75rem;
+    color: var(--charcoal-soft);
+    letter-spacing: 0.02em;
+  }
+
+  @media (max-width: 380px){
+    h1{ font-size: 1.8rem; }
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="mark"><span>MB</span></div>
+    <h1>MB Business</h1>
+    <p class="tagline">Découvrez nos univers Style et Sport ! Équipements, parfums et services sur mesure. 🛍️</p>
+
+    <div class="group-label">Contact direct</div>
+    <div class="links">
+      <a class="link" href="https://mp-business.vytrini.com/" target="_blank" rel="noopener">
+        <div class="link-text">
+          <span class="link-title">Site vitrine</span>
+          <span class="link-sub">Découvrir la boutique en ligne</span>
+        </div>
+        <div class="chev"></div>
+      </a>
+      <a class="link" href="https://wa.me/24105676806" target="_blank" rel="noopener">
+        <div class="link-text">
+          <span class="link-title">WhatsApp Business</span>
+          <span class="link-sub">Passer une commande ou poser une question</span>
+        </div>
+        <div class="chev"></div>
+      </a>
+    </div>
+
+    <div class="group-label">MB Business Style</div>
+    <div class="links">
+      <a class="link" href="https://www.facebook.com/profile.php?id=61573962007318" target="_blank" rel="noopener">
+        <div class="link-text">
+          <span class="link-title">Facebook</span>
+          <span class="link-sub">MB Business Style</span>
+        </div>
+        <div class="chev"></div>
+      </a>
+      <a class="link" href="https://www.tiktok.com/@mp.business1" target="_blank" rel="noopener">
+        <div class="link-text">
+          <span class="link-title">TikTok</span>
+          <span class="link-sub">@mp.business1</span>
+        </div>
+        <div class="chev"></div>
+      </a>
+      <a class="link" href="https://www.instagram.com/mpbusiness37style" target="_blank" rel="noopener">
+        <div class="link-text">
+          <span class="link-title">Instagram</span>
+          <span class="link-sub">@mpbusiness37style</span>
+        </div>
+        <div class="chev"></div>
+      </a>
+    </div>
+
+    <div class="group-label">MP Business Sport</div>
+    <div class="links">
+      <a class="link" href="https://www.facebook.com/profile.php?id=61590820064790" target="_blank" rel="noopener">
+        <div class="link-text">
+          <span class="link-title">Facebook</span>
+          <span class="link-sub">MP Business Sport</span>
+        </div>
+        <div class="chev"></div>
+      </a>
+      <a class="link" href="https://www.instagram.com/mpbusiness26sport" target="_blank" rel="noopener">
+        <div class="link-text">
+          <span class="link-title">Instagram</span>
+          <span class="link-sub">@mpbusiness26sport</span>
+        </div>
+        <div class="chev"></div>
+      </a>
+    </div>
+
+    <footer>MB Business</footer>
+  </div>
+</body>
+</html>

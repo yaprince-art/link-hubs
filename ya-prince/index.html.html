@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ya Prince l'Enseignant — Liens</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&family=Nunito:wght@400;600;700&display=swap');
+
+  :root{
+    --sky: #EAF3F7;
+    --sun: #F5B942;
+    --sun-deep: #E8A422;
+    --coral: #EF6F5B;
+    --ink: #2B3A4A;
+    --ink-soft: #5A6B7A;
+    --card: #FFFFFF;
+    --line: #DCE7EC;
+  }
+
+  *{ box-sizing:border-box; margin:0; padding:0; }
+
+  body{
+    background: var(--sky);
+    background-image: radial-gradient(circle at 15% 8%, #FDEFD6 0%, transparent 40%),
+                       radial-gradient(circle at 85% 92%, #DCEEF2 0%, transparent 45%);
+    color: var(--ink);
+    font-family: 'Nunito', sans-serif;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    padding: 52px 20px 70px;
+  }
+
+  .page{ width:100%; max-width: 440px; }
+
+  .mark{
+    width: 84px; height: 84px;
+    border-radius: 28px;
+    background: var(--sun);
+    display:flex; align-items:center; justify-content:center;
+    margin: 0 auto 20px;
+    box-shadow: 0 6px 0 var(--sun-deep);
+    transform: rotate(-4deg);
+  }
+  .mark span{
+    font-family:'Baloo 2', sans-serif;
+    font-weight:700;
+    font-size: 1.8rem;
+    color: #fff;
+    transform: rotate(4deg);
+  }
+
+  h1{
+    font-family:'Baloo 2', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align:center;
+    color: var(--ink);
+  }
+
+  .tagline{
+    text-align:center;
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+    margin-top: 8px;
+    margin-bottom: 38px;
+    line-height: 1.5;
+  }
+
+  .links{ display:flex; flex-direction:column; gap: 14px; }
+
+  a.link{
+    display:flex;
+    align-items:center;
+    gap: 14px;
+    text-decoration:none;
+    color: var(--ink);
+    background: var(--card);
+    border: 2px solid var(--line);
+    border-radius: 18px;
+    padding: 16px 18px;
+    transition: border-color 0.15s ease, transform 0.1s ease;
+  }
+  a.link:hover{ border-color: var(--coral); }
+  a.link:active{ transform: scale(0.98); }
+
+  .dot{
+    width: 40px; height: 40px;
+    border-radius: 12px;
+    flex-shrink:0;
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Baloo 2', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color:#fff;
+  }
+  .dot.yt{ background:#E8583F; }
+  .dot.tt{ background:#2B3A4A; }
+  .dot.ig{ background: linear-gradient(135deg, #F5B942, var(--coral)); }
+
+  .link-text{ display:flex; flex-direction:column; gap:1px; }
+  .link-title{ font-weight: 700; font-size: 1rem; }
+  .link-sub{ font-size: 0.82rem; color: var(--ink-soft); }
+
+  footer{
+    text-align:center;
+    margin-top: 44px;
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="mark"><span>YP</span></div>
+    <h1>Ya Prince l'Enseignant</h1>
+    <p class="tagline">Éducation, contenus explicatifs et conseils. Suivez-moi sur tous mes réseaux ! 📚🎥</p>
+
+    <div class="links">
+      <a class="link" href="https://youtube.com/@yaprince2026" target="_blank" rel="noopener">
+        <div class="dot yt">YT</div>
+        <div class="link-text">
+          <span class="link-title">YouTube</span>
+          <span class="link-sub">Regarder les épisodes</span>
+        </div>
+      </a>
+      <a class="link" href="https://www.tiktok.com/@yaprince2026" target="_blank" rel="noopener">
+        <div class="dot tt">TT</div>
+        <div class="link-text">
+          <span class="link-title">TikTok</span>
+          <span class="link-sub">@yaprince2026</span>
+        </div>
+      </a>
+      <a class="link" href="https://www.instagram.com/yaprince2026" target="_blank" rel="noopener">
+        <div class="dot ig">IG</div>
+        <div class="link-text">
+          <span class="link-title">Instagram</span>
+          <span class="link-sub">@yaprince2026</span>
+        </div>
+      </a>
+    </div>
+
+    <footer>Ya Prince l'Enseignant</footer>
+  </div>
+</body>
+</html>
